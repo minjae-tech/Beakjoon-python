@@ -1,0 +1,47 @@
+# 2 week assignment
+#P-10869
+
+A, B = map(int, input().split())
+
+if A > B:
+    print(">")
+elif A < B:
+    print("<")
+else:
+    print("==")
+
+#P-10926
+
+id = input()
+
+print(id + "??!")
+
+#P-18108
+
+y = int(input())
+
+print(y - 543)
+
+#P-10430
+
+A,B,C=map(int, input(). split())
+print((A+B)%C)
+print(((A%C) + (B%C))%C)
+print((A*B)%C)
+print(((A%C)*(B%C))%C)
+
+#P-2588
+
+a=int(input())
+b=int(input())
+print(a*(b%10))
+print(a*((b//10)%10))
+print(a*(b//100))
+print(a*b)
+
+#P-11382
+
+A,B,C=map(int, input(). split())
+print(A+B+C)
+
+
