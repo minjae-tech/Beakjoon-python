@@ -1,4 +1,4 @@
-# 2 week assignment
+#2
 #P-10869
 
 A, B = map(int, input().split())
